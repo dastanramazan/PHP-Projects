@@ -11,7 +11,7 @@
     <!-- SIGN UP -->
         <div class="container" id="signUp" style="display: none;">
             <h1 class="form-title">Register</h1>
-            <form action="signup.php" method="post">
+            <form action="register.php" method="post">
                 <div class="input-group">
                     <i class="fas fa-user"></i>
                     <input type="text" name="firstName" id="firstName" placeholder="Your name" required>
@@ -36,7 +36,7 @@
                     <label for="password">Password</label>
                 </div>
 
-                <input type="submit" class="btn" value="Sign Up" name="signup">
+                <input type="submit" class="btn" value="Sign Up" name="signUp">
 
                 <p class="or">
                     --------or--------
@@ -56,7 +56,7 @@
         
     <div class="container" id="signIn">
         <h1 class="form-title">Sign In</h1>
-        <form action="signup.php" method="post">
+        <form action="register.php" method="post">
             
             <div class="input-group">
                 <i class="fas fa-envelope"></i>
